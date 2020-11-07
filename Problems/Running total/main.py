@@ -1,11 +1,6 @@
-my_input = input()
-numbers = [i for i in str(my_input)]
-print(numbers)
-length = len(numbers)
-new_array = [numbers[0]]
-for i in range(length - 1):
+sequence = input()
+total_seq = [int(sequence[0])]
+for i in range(1, len(sequence)):
+    total_seq.append(int(total_seq[i - 1]) + int(sequence[i]))
 
-    new_array.append(numbers[i - 1] + numbers[i])
-
-
-print(new_array)
+print(total_seq)

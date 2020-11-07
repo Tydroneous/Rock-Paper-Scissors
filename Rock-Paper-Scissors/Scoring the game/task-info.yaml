@@ -1,6 +1,11 @@
 type: edu
 custom_name: stage4
 files:
+- name: rps/game.py
+  visible: true
+  text: |
+    # Write your code here
+  learner_created: false
 - name: tests.py
   visible: false
   text: |
@@ -149,11 +154,13 @@ files:
     if __name__ == '__main__':
         RPSTest("rps.game").run_tests()
   learner_created: false
-- name: rps/game.py
+- name: rps/rating.txt
   visible: true
-  text: |
-    # Write your code here
-  learner_created: false
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/78/stages/434/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/78/stages/434/implement">JetBrains
+    Academy</a>
+  time: Tue, 03 Nov 2020 18:35:38 UTC
+record: 4
